@@ -34,7 +34,6 @@ This journey is structured to provide deep dives into critical areas:
 ---
 ## 📅 Daily POC Plan
 
-## 📋 Command Summary Table
 
 
 | Challenge |                              POC Title                                                                                                                   | Status               |

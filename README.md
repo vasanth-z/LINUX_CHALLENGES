@@ -32,6 +32,17 @@ This journey is structured to provide deep dives into critical areas:
 - 📈 **Performance Tuning**: Monitoring system resources and optimizing performance for efficiency.
 
 ---
+## 📅 Daily POC Plan
+
+## 📋 Command Summary Table
+
+| Challenge |                              POC Title                                                                                                                  | Status               |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1         |[Directory Tree creation & Navigation](https://github.com/vasanth-z/LINUX-15-DAYS-CHALLENGE/blob/5625f61f88af3f75a92ab9f42273a59026f72d8d/challenge_1.md) |  COMPLETED ✅       |
+| 2         |[File Creation, Copying & Moving](https://github.com/vasanth-z/LINUX-15-DAYS-CHALLENGE/blob/5625f61f88af3f75a92ab9f42273a59026f72d8d/Challenge_2.md)      |  COMPLETED ✅       |
+
+---
+
 
 💡 Stay tuned for daily updates, challenges, code snippets, and insights as I navigate the world of Linux like never before!
 

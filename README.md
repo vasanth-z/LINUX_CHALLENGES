@@ -36,10 +36,11 @@ This journey is structured to provide deep dives into critical areas:
 
 ## 📋 Command Summary Table
 
-| Challenge |                              POC Title                                                                                                                  | Status               |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1         |[Directory Tree creation & Navigation](https://github.com/vasanth-z/LINUX-15-DAYS-CHALLENGE/blob/5625f61f88af3f75a92ab9f42273a59026f72d8d/challenge_1.md) |  COMPLETED ✅       |
-| 2         |[File Creation, Copying & Moving](https://github.com/vasanth-z/LINUX-15-DAYS-CHALLENGE/blob/5625f61f88af3f75a92ab9f42273a59026f72d8d/Challenge_2.md)      |  COMPLETED ✅       |
+
+| Challenge |                              POC Title                                                                                                                   | Status               |
+|-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------|
+| 1         | [Directory Tree creation & Navigation](https://github.com/vasanth-z/LINUX-15-DAYS-CHALLENGE/blob/5625f61f88af3f75a92ab9f42273a59026f72d8d/challenge_1.md) |  COMPLETED ✅       |
+| 2         | [File Creation, Copying & Moving](https://github.com/vasanth-z/LINUX-15-DAYS-CHALLENGE/blob/5625f61f88af3f75a92ab9f42273a59026f72d8d/Challenge_2.md)      |  COMPLETED ✅       |
 
 ---
 

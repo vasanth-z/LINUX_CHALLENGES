@@ -82,7 +82,9 @@ ls -l ~/projects/my_project/docs/
 ```
 <img width="905" height="132" alt="Screenshot 2025-07-24 090723" src="https://github.com/user-attachments/assets/4a8df39c-e48f-4d45-93c5-50757377afcc" />
 <img width="751" height="86" alt="Screenshot 2025-07-24 090742" src="https://github.com/user-attachments/assets/89586a26-5c57-46b3-81bf-b64a588b7017" />
+
 ---
+
 ## 📋 Command Summary Table
 
 | Command                                                                 | Purpose                                                                 |
@@ -94,4 +96,5 @@ ls -l ~/projects/my_project/docs/
 | `ls -l ~/projects/my_project/src/`                                      | Lists the contents of the `src` directory with details                  |
 | `ls -l ~/projects/my_project/docs/`                                     | Lists the contents of the `docs` directory with details                 |
 | `ls -l ~/projects/my_project/`                                          | Lists the contents of the `my_project` directory with details           |
+
 ---

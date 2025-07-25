@@ -18,6 +18,7 @@ touch ~/temp_stuff/junk.txt
 
 <img width="433" height="50" alt="Screenshot 2025-07-25 213156" src="https://github.com/user-attachments/assets/90648a7b-9478-4874-a2b1-9b182e860ea0" />
 
+
 <img width="571" height="82" alt="Screenshot 2025-07-25 213203" src="https://github.com/user-attachments/assets/dfc450aa-b5c0-4ddf-ba2e-8a52dcc450fb" />
 
 ### Directory Contents After Creation

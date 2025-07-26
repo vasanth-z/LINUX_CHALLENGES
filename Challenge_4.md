@@ -58,6 +58,7 @@ Numeric Method (Octal):
 
 Create a simple text file named `~/test_file.txt` in your home directory with some content:
 
+commands:
 ```bash
 echo "Hello Permissions!" > ~/test_file.txt
 ```
@@ -68,6 +69,7 @@ echo "Hello Permissions!" > ~/test_file.txt
 ### 📌 Initial File Creation (Before any chmod)
 Show initial permissions after creating the file:
 
+commands:
 ```bash
 ls -l ~/test_file.txt
 ```

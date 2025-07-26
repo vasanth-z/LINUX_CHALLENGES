@@ -5,11 +5,13 @@ Understand the behavior of file and directory deletion commands (`rm` and `rmdir
 
 ---
 
-## 🛠️ Steps:
+## 🛠️ STEPS:
 
 ### 1. Create a Test Directory and File
+
 Create a new directory and add a file inside it.
 
+command:
 ```bash
 mkdir ~/temp_stuff
 touch ~/temp_stuff/junk.txt
@@ -35,6 +37,7 @@ ls -l ~/temp_stuff/
 
 Try to delete the directory using rmdir (this will fail because it's not empty).
 
+command:
 ```bash
 rmdir ~/temp_stuff
 ```

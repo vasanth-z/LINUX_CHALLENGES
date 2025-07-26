@@ -124,7 +124,7 @@ ls -l ~/test_file.txt
 <img width="1056" height="96" alt="Screenshot 2025-07-26 193954" src="https://github.com/user-attachments/assets/cc630a43-f6f8-4e59-ae34-bcc80e691b3b" />
 
 ### NOTE:
-To view print the content saved in the `echo file` :
+To view (OR) print the content saved in the `echo file` :
 command:
 ```bash
 cat test.txt

@@ -64,3 +64,15 @@ Run the script again directly:
 ~/my_script.sh
 ```
 Expected behavior: Now it works!
+
+## 📋 Command Summary Table
+
+| Command                                             | Purpose                                                                 |
+|-----------------------------------------------------|-------------------------------------------------------------------------|
+| `echo '#!/bin/bash' > ~/my_script.sh`              | Creates a new file `my_script.sh` and adds the shebang line            |
+| `echo 'echo "Hello from my script!"' >> ~/my_script.sh` | Appends an echo statement to the script                                |
+| `~/my_script.sh`                                    | Attempts to execute the script directly (fails without execute bit)    |
+| `bash ~/my_script.sh`                               | Executes the script using the `bash` interpreter (works without `x`)   |
+| `chmod u+x ~/my_script.sh`                          | Grants execute (`x`) permission to the owner of the script             |
+| `ls -l ~/my_script.sh`                              | Lists detailed file permissions and verifies changes                   |
+

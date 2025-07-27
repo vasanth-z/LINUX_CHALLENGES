@@ -36,6 +36,15 @@ Expected behavior: It should print the message successfully.
 ```
 Expected behavior: It should print the message successfully.
 
+### 📌 Initial Script Permissions (Before chmod)
+```bash
+ls -l ~/my_script.sh
+```
+Expected Output (Example):
+```
+-rw-rw-r-- 1 your_username your_username 31 Jul 27 21:30 my_script.sh
+```
+
 ### ✅ Step 4: Grant Executable Permissions
 
 Add execute permission for the owner:
@@ -43,10 +52,14 @@ Add execute permission for the owner:
 ```bash
 chmod u+x ~/my_script.sh
 ```
+### 📌 Script Permissions After Granting Execute (After Step 4)
+```bash
+ls -l ~/my_script.sh
+```
 
 ### ✅ Step 5: Execute With Permissions (Directly)
-Run the script again directly:
 
+Run the script again directly:
 ```bash
 ~/my_script.sh
 ```

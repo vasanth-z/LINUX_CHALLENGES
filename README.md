@@ -42,6 +42,7 @@ This journey is structured to provide deep dives into critical areas:
 | 2         | [File Creation, Copying & Moving](https://github.com/vasanth-z/LINUX-15-DAYS-CHALLENGE/blob/5625f61f88af3f75a92ab9f42273a59026f72d8d/Challenge_2.md)      |  COMPLETED ✅       |
 | 3         | [Deleting Files and Directories Safely](https://github.com/vasanth-z/LINUX-15-DAYS-CHALLENGE/blob/d3bef9dd2bb4cbe6d77343cb5e82a4a5afbcb8ff/Challenge_3.md)|  COMPLETED ✅       |
 | 4         | [Understanding Basic Permissions(chmod)](https://github.com/vasanth-z/LINUX-15-DAYS-CHALLENGE/blob/d060e636751c922e340bf4bec854dda8612014dc/Challenge_4.md)| COMPLETED ✅       |
+| 5         | [Changing Permissions for Scripts](https://github.com/vasanth-z/LINUX-15-DAYS-CHALLENGE/blob/8d17d527c61a2b5af240c5548b06749b06ac6b7b/Challenge_5.md)     |  COMPLETED ✅       |
 ---
 
 

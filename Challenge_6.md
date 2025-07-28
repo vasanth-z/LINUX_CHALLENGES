@@ -9,7 +9,7 @@ Explore different command-line utilities (**cat**, **head**, **tail**) to displa
 
 ### ✅ Step 1: Create a Multi-Line Text File
 
-Create a file named `~/quotes.txt` with at least 5 distinct lines of text:
+Create a file named `~/learn.txt` with at least 5 distinct lines of text:
 
 ```bash
 echo "The only way to do great work is to love what you do." > ~/quotes.txt
@@ -27,7 +27,7 @@ Note: Using `>` for the first line to create/overwrite and `>>` for lines to app
 
 ## 🔄 Alternative Method for Challenge 6: Using a Command-Line Text Editor
 
-Instead of using multiple `echo` commands, you can create and edit `~/quotes.txt` directly using a **command-line text editor**.
+Instead of using multiple `echo` commands, you can create and edit `~/learn.txt` directly using a **command-line text editor**.
 
 ---
 
@@ -36,7 +36,7 @@ Instead of using multiple `echo` commands, you can create and edit `~/quotes.txt
 Open/Create the file with `nano`:
 
 ```bash
-nano ~/quotes.txt
+nano ~/learn.txt
 ```
 <img width="477" height="29" alt="Screenshot 2025-07-28 224007" src="https://github.com/user-attachments/assets/7dd00062-c660-4d1c-af86-cb31828c5868" />
 
@@ -60,7 +60,7 @@ Press `Ctrl + X` to exit nano.
 Use cat to display all lines:
 
 ```bash
-cat ~/quotes.txt
+cat ~/learn.txt
 ```
 
 <img width="1207" height="177" alt="Screenshot 2025-07-28 224143" src="https://github.com/user-attachments/assets/02b3229c-a516-4583-98e5-2da0fe01cd13" />
@@ -70,7 +70,7 @@ cat ~/quotes.txt
 Use head with an option to display the first 3 lines:
 
 ```bash
-head -n 3 ~/quotes.txt
+head -n 3 ~/learn.txt
 ```
 <img width="1110" height="86" alt="Screenshot 2025-07-28 224102" src="https://github.com/user-attachments/assets/be1f24e6-469d-4489-a881-eadfdfe92c0d" />
 
@@ -79,7 +79,7 @@ head -n 3 ~/quotes.txt
 Use tail with an option to display the last 2 lines:
 
 ```bash
-tail -n 2 ~/quotes.txt
+tail -n 2 ~/learn.txt
 ```
 
 <img width="1091" height="78" alt="Screenshot 2025-07-28 224110" src="https://github.com/user-attachments/assets/5c569069-6258-4b6c-9119-d734ffbc853d" />

@@ -83,3 +83,17 @@ tail -n 2 ~/learn.txt
 ```
 
 <img width="1091" height="78" alt="Screenshot 2025-07-28 224110" src="https://github.com/user-attachments/assets/5c569069-6258-4b6c-9119-d734ffbc853d" />
+
+
+## 📋 Command Summary Table
+
+| Command                                   | Purpose                                                      |
+|-------------------------------------------|--------------------------------------------------------------|
+| `echo "text" > ~/quotes.txt`             | Creates a new file `quotes.txt` with the first line         |
+| `echo "text" >> ~/quotes.txt`            | Appends additional lines to the existing `quotes.txt` file  |
+| `cat ~/quotes.txt`                       | Displays the entire content of the file                     |
+| `head -n 3 ~/quotes.txt`                 | Displays the first 3 lines of the file                      |
+| `tail -n 2 ~/quotes.txt`                 | Displays the last 2 lines of the file                       |
+| `nano ~/quotes.txt`                      | Opens or creates `quotes.txt` in the nano text editor       |
+| `Ctrl + O` (inside nano)                 | Saves changes to the file                                   |
+| `Ctrl + X` (inside nano)                 | Exits the nano text editor                                  |

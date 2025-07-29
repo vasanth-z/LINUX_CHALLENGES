@@ -41,6 +41,10 @@ Use grep with an option to find all lines that contain "the", regardless of whet
 
 Command:
 
+```
+grep -i "LINUX" ~/learn.txt
+```
+
 ```Bash
 grep -i "the" ~/learn.txt
 ```

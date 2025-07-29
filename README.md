@@ -44,6 +44,7 @@ This journey is structured to provide deep dives into critical areas:
 | 4         | [Understanding Basic Permissions(chmod)](https://github.com/vasanth-z/LINUX-15-DAYS-CHALLENGE/blob/d060e636751c922e340bf4bec854dda8612014dc/Challenge_4.md)| COMPLETED ✅       |
 | 5         | [Changing Permissions for Scripts](https://github.com/vasanth-z/LINUX-15-DAYS-CHALLENGE/blob/8d17d527c61a2b5af240c5548b06749b06ac6b7b/Challenge_5.md)     |  COMPLETED ✅       |
 | 6         | [Viewing File Content](https://github.com/vasanth-z/LINUX-15-DAYS-CHALLENGE/blob/466e3620bad844ae011bfdc4e6cfbffda62a320d/Challenge_6.md)                 |  COMPLETED ✅       |
+| 7         | [Searching for text (grep)](https://github.com/vasanth-z/LINUX_CHALLENGES/blob/f1c5abbeae3204903ab1f5c4e36096f5cba004c2/Challenge_7.md)                   |  COMPLETED ✅       |
 ---
 
 

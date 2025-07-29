@@ -73,3 +73,13 @@ BEFORE:
 AFTER:
 
 <img width="1376" height="131" alt="Screenshot 2025-07-29 205429" src="https://github.com/user-attachments/assets/1c400ad6-8d46-4c0e-b785-40fe606d3b0f" />
+
+---
+
+## 📄 Summary: Commands and Their Purpose
+
+| Command                          | Purpose                                                                 |
+|----------------------------------|-------------------------------------------------------------------------|
+| `grep "Linux" ~/learn.txt`     | Searches for lines that contain the exact word "Linux".                |
+| `grep -i "the" ~/learn.txt`    | Searches for lines containing "the", case-insensitive (e.g., The, THE).|
+| `grep -v "linux" ~/learn.txt`| Displays all lines that do **not** contain the word "linux".        |

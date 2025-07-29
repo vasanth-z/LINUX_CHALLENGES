@@ -66,4 +66,10 @@ Command:
 grep -v "linux" ~/learn.txt
 ```
 
+BEFORE:
+
+<img width="1208" height="208" alt="Screenshot 2025-07-29 205239" src="https://github.com/user-attachments/assets/81d67021-90ac-4119-9fac-997abe0a219d" />
+
+AFTER:
+
 <img width="1376" height="131" alt="Screenshot 2025-07-29 205429" src="https://github.com/user-attachments/assets/1c400ad6-8d46-4c0e-b785-40fe606d3b0f" />

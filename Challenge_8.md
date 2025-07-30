@@ -37,7 +37,7 @@ If the file exists, it will be overwritten.
 Command:
 
 ```bash
-df -h >> ~/home_contents.txt
+df -h >> ~/sample.txt
 ```
 Purpose:
 Appends the disk usage information to home_contents.txt.
@@ -51,7 +51,7 @@ Existing content remains intact.
 Command:
 
 ```bash
-cat ~/quotes.txt | wc -l
+cat ~/sample.txt | wc -l
 ```
 Purpose:
 Counts the number of lines in quotes.txt using piping.

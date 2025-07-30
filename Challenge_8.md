@@ -33,8 +33,6 @@ Purpose:
 Saves the detailed listing of your home directory to sample.txt.
 If the file exists, it will be overwritten.
 
-<img width="1011" height="40" alt="Screenshot 2025-07-30 085722" src="https://github.com/user-attachments/assets/c91c6746-7808-4262-98cf-bfc04c69250e" />
-
 ### 2. Append Output to an Existing File
 Command:
 
@@ -59,4 +57,14 @@ Purpose:
 Counts the number of lines in quotes.txt using piping.
 
 <img width="850" height="39" alt="Screenshot 2025-07-30 085821" src="https://github.com/user-attachments/assets/d8c476e9-3b69-4b99-95f1-c96034a51338" />
+
+
+### 🔄 Challenge 8: Redirection and Piping – Summary
+
+| Command                               | Purpose                                                                 |
+|---------------------------------------|-------------------------------------------------------------------------|
+| `ls -l ~ > ~/home_contents.txt`       | Redirects the output of `ls -l ~` to a new file, overwriting if it exists |
+| `df -h >> ~/home_contents.txt`        | Appends the disk usage info to the existing file without overwriting     |
+| `cat ~/quotes.txt | wc -l`            | Pipes the content of `quotes.txt` to `wc -l` to count the number of lines |
+| `cat ~/home_contents.txt`             | Displays the full content of `home_contents.txt`                         |
 

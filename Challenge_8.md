@@ -15,22 +15,25 @@ These are essential for automation and data processing in Linux.
 
 **Command:**
 ```bash
-ls -l ~ > ~/home_contents.txt
+ls -l ~ > ~/sample.txt
 ```
 
-### Show the Contents of `home_contents.txt`
+<img width="1141" height="445" alt="Screenshot 2025-07-30 085651" src="https://github.com/user-attachments/assets/234a2d19-209a-4198-bd11-ce38dd2cc725" />
+
+<img width="1011" height="40" alt="Screenshot 2025-07-30 085722" src="https://github.com/user-attachments/assets/7a2325dc-0898-4418-93c8-2b1e17d3f538" />
+
+
+### Show the Contents of `sample.txt`
 Command:
 
 ```bash
-cat ~/home_contents.txt
+cat ~/sample.txt
 ```
-
-
-
 Purpose:
 Saves the detailed listing of your home directory to sample.txt.
-
 If the file exists, it will be overwritten.
+
+<img width="1011" height="40" alt="Screenshot 2025-07-30 085722" src="https://github.com/user-attachments/assets/c91c6746-7808-4262-98cf-bfc04c69250e" />
 
 ### 2. Append Output to an Existing File
 Command:
@@ -42,6 +45,10 @@ Purpose:
 Appends the disk usage information to home_contents.txt.
 Existing content remains intact.
 
+<img width="856" height="66" alt="Screenshot 2025-07-30 085745" src="https://github.com/user-attachments/assets/d9053a7e-4694-4b4d-bb0d-6821bb4c6d13" />
+
+<img width="725" height="658" alt="Screenshot 2025-07-30 085800" src="https://github.com/user-attachments/assets/76b56797-da8f-41d2-85c5-d359880b4b42" />
+
 ### 3. Pipe Command Output
 Command:
 
@@ -50,3 +57,6 @@ cat ~/quotes.txt | wc -l
 ```
 Purpose:
 Counts the number of lines in quotes.txt using piping.
+
+<img width="850" height="39" alt="Screenshot 2025-07-30 085821" src="https://github.com/user-attachments/assets/d8c476e9-3b69-4b99-95f1-c96034a51338" />
+

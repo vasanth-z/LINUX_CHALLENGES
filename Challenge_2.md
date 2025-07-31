@@ -9,7 +9,7 @@ Practice fundamental file manipulation commands:
 
 ---
 
-## 🪜 Steps
+## 🪜 Steps:
 
 ### ✅ Step 1: Create an Empty File
 

@@ -7,7 +7,7 @@ Understand the behavior of file and directory deletion commands (`rm` and `rmdir
 
 ## 🛠️ STEPS:
 
-### 1. Create a Test Directory and File
+### 1. Create a Test Directory and File:
 
 Create a new directory and add a file inside it.
 

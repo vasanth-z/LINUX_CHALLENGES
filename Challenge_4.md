@@ -1,6 +1,6 @@
 # 🎯 Challenge 4: Understanding Basic Permissions (chmod)
 
-## 🧠 Objective  
+## 🧠 Objective:
 Learn how to view and modify basic file permissions using **symbolic modes** (`u`, `g`, `o`, `a` with `+`, `-`, `=`) and understand their impact on **read, write, and execute** access for the **owner**, **group**, and **others**.
 
 ## 🔐 Understanding Linux File Permissions

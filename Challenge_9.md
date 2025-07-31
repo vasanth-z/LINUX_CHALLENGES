@@ -15,7 +15,7 @@ sleep 1000
 
 <img width="558" height="25" alt="Screenshot 2025-07-31 222240" src="https://github.com/user-attachments/assets/bbde4685-7654-4e53-847a-9311a393de77" />
 
-Leave this terminal open.
+Leave this terminal open..
 
 ---
 

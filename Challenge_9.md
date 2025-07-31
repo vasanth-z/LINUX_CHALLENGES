@@ -85,4 +85,15 @@ But prefer the normal `kill` for graceful shutdowns.
   ps aux | grep "sleep 1000"
   ```
 
+### 📋 Summary: Commands, Full Forms & Purposes
+
+| Command                  | Full Form                     | Purpose                                                                 |
+|--------------------------|-------------------------------|-------------------------------------------------------------------------|
+| `sleep 1000`            | –                             | Runs a command that pauses for 1000 seconds                             |
+| `ps aux`                | Process Status (with options) | Lists all running processes                                             |
+| `grep "sleep 1000"`     | Global Regular Expression Print | Filters output to show lines containing "sleep 1000"                   |
+| `ps aux | grep ...`     | –                             | Combines listing and filtering to find specific processes              |
+| `kill [PID]`            | –                             | Sends a termination signal to a process with the given PID             |
+| `kill -9 [PID]`         | –                             | Forcefully terminates a process (SIGKILL)                              |
+
 ---

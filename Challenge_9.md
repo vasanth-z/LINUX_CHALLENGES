@@ -5,7 +5,7 @@ Learn how to identify and terminate running processes on your system using comma
 
 ---
 
-### 🛠️ Steps
+### 🛠️ Steps :
 
 #### ✅ Step 1: Start a Background Process
 Open a **new terminal** and run a long-duration process:

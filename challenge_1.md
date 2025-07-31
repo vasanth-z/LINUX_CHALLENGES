@@ -2,7 +2,7 @@
 
 ## 🎯 Objective  
 Learn to create nested directories and navigate through them using:  
-- Absolute paths  
+- Absolute paths.  
 - Relative paths  
 - Home directory shortcut (`~`)
 

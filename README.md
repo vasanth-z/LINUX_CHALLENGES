@@ -17,7 +17,7 @@ My commitment for the next 15 days is to:
 
 ---
 
-## 🗺️ What We'll Master
+## 🗺️ What We'll Master:
 
 This journey is structured to provide deep dives into critical areas:
 

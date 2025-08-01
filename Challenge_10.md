@@ -63,3 +63,12 @@ uname -a
 Output:
 <img width="882" height="67" alt="Screenshot 2025-08-01 210033" src="https://github.com/user-attachments/assets/671cac8a-9e81-4f75-95c5-eb8030301299" />
 
+### 🗂️ Summary Table: Basic System Information Commands
+
+| Command     | Purpose                                                                 |
+|-------------|-------------------------------------------------------------------------|
+| `whoami`    | Displays the current logged-in user's username.                         |
+| `date`      | Shows the current system date, time, and timezone.                      |
+| `pwd`       | Prints the full path of the current working directory.                  |
+| `hostname`  | Displays the name of the machine (hostname).                            |
+| `uname -a`  | Provides detailed operating system info including kernel and architecture. |

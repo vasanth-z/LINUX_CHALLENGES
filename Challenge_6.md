@@ -5,7 +5,7 @@ Explore different command-line utilities (**cat**, **head**, **tail**) to displa
 
 ---
 
-## 🪜 Steps
+## 🪜 Steps:
 
 ### ✅ Step 1: Create a Multi-Line Text File
 

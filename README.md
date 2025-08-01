@@ -47,6 +47,7 @@ This journey is structured to provide deep dives into critical areas:
 | 7         | [Searching for text (grep)](https://github.com/vasanth-z/LINUX_CHALLENGES/blob/f1c5abbeae3204903ab1f5c4e36096f5cba004c2/Challenge_7.md)                   |  COMPLETED ✅       |
 | 8         | [Redirection and Piping](https://github.com/vasanth-z/LINUX_CHALLENGES/blob/8a3dba974d8992a32563b8f1893e1cf8ba516eea/Challenge_8.md)                      |  COMPLETED ✅       |
 | 9         | [Listing and Killing Processes](https://github.com/vasanth-z/LINUX_CHALLENGES/blob/3f9b7778ba715da39da8fe746ab87d069b822503/Challenge_9.md)               |  COMPLETED ✅       |
+| 10        | [Basic System Information](https://github.com/vasanth-z/LINUX_CHALLENGES/blob/8328ff523c7db6884d5d750c5a48e3720ac2f288/Challenge_10.md)                   |  COMPLETED ✅       |
 
 ---
 

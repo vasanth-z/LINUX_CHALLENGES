@@ -5,7 +5,7 @@ This hands-on journey will cover everything from foundational commands to advanc
 
 ---
 
-## 🎯 Project Goals
+## 🎯 Project Goals:
 
 My commitment for the next 15 days is to:
 

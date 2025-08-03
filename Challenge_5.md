@@ -1,6 +1,6 @@
 # 🎯 Challenge 5: Executable Permissions for Scripts
 
-## 🧠 Objective  
+## 🧠 Objective :
 Understand the concept of **executable permissions**, how to grant them to a script, and the difference between executing a script **directly** versus **passing it to an interpreter**.
 
 ---

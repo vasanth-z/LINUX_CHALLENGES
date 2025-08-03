@@ -48,6 +48,7 @@ This journey is structured to provide deep dives into critical areas:
 | 8         | [Redirection and Piping](https://github.com/vasanth-z/LINUX_CHALLENGES/blob/8a3dba974d8992a32563b8f1893e1cf8ba516eea/Challenge_8.md)                      |  COMPLETED ✅       |
 | 9         | [Listing and Killing Processes](https://github.com/vasanth-z/LINUX_CHALLENGES/blob/3f9b7778ba715da39da8fe746ab87d069b822503/Challenge_9.md)               |  COMPLETED ✅       |
 | 10        | [Basic System Information](https://github.com/vasanth-z/LINUX_CHALLENGES/blob/8328ff523c7db6884d5d750c5a48e3720ac2f288/Challenge_10.md)                   |  COMPLETED ✅       |
+| 11        | [Disk Usage and Free Space(du,df)](https://github.com/vasanth-z/LINUX_CHALLENGES/blob/d18b7d51a8244abf5ca7edae1211843a90f612f9/Challenge_11.md)           |  COMPLETED ✅       |
 
 ---
 

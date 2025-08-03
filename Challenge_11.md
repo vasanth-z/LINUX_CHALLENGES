@@ -30,7 +30,7 @@ du -sh ~
 
 ---
 
-#### ✅ Step 2: Check Free Space on All Filesystems
+#### ✅ Step 2: Check Free Space on All Filesystems:
 
 Use the `df` (Disk Free) command with:
 - `-h` → human-readable format

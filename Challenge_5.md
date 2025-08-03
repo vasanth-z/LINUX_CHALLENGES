@@ -5,7 +5,7 @@ Understand the concept of **executable permissions**, how to grant them to a scr
 
 ---
 
-## 🪜 Steps
+## 🪜 Steps:
 
 ### ✅ Step 1: Create a Simple Shell Script
 

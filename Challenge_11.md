@@ -1,13 +1,13 @@
 ## 🎯 Challenge 11: Disk Usage and Free Space (`du`, `df`)
 
-### 🧠 Objective
+### 🧠 Objective:
 Learn how to monitor and understand disk space on your Linux system using:
 - `du` to check the size of specific directories.
 - `df` to view the available and used space on all mounted filesystems.
 
 ---
 
-### 🧪 Steps
+### 🧪 Steps:
 
 #### ✅ Step 1: Check Disk Usage of Your Home Directory
 

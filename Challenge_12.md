@@ -1,4 +1,4 @@
-## 🎯 Challenge 12: Pinging a Website
+## 🎯 Challenge 12: Pinging a Website!
 
 **Objective:**  
 Learn to use the `ping` command to test network connectivity and measure the round-trip time to a remote host. This is the first and most common tool for troubleshooting basic network issues.

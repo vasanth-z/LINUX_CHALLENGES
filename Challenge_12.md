@@ -4,6 +4,17 @@
 Learn to use the `ping` command to test network connectivity and measure the round-trip time to a remote host. This is the first and most common tool for troubleshooting basic network issues.
 
 ---
+### Explanation:
+
+In the command ping -c 4 google.com, the 4 is a number that tells the ping command how many packets to send.
+
+Here's a breakdown:
+
+ping: The main command.
+
+`-c`: This is a command-line option or "flag". It stands for "count".
+
+`4`: This is the value for the `-c` option. It specifies that ping should send exactly 4 ICMP (Internet Control Message Protocol) packets to the destination.
 
 ### 🧪 Steps:
 
@@ -16,6 +27,11 @@ Use the `-c` flag to limit the number of packets sent to a specific number, such
 ```bash
 ping -c 4 google.com
 ```
+
+<img width="668" height="18" alt="Screenshot 2025-08-04 194818" src="https://github.com/user-attachments/assets/0c24bffd-2ca8-4b4e-9172-d57d7f6d4fb6" />
+
+
+<img width="885" height="94" alt="Screenshot 2025-08-04 194831" src="https://github.com/user-attachments/assets/06cd09ea-73d2-461b-affa-2b6d6eed9415" />
 
 > **Note:** Without the `-c` flag, `ping` will continue to run until you stop it manually with `Ctrl + C`.
 
@@ -54,3 +70,20 @@ rtt min/avg/max/mdev = 4.444/5.075/5.672/0.435 ms
 ```bash
 ping -c 4 google.com  # Sends 4 ping requests to google.com and displays the response times
 ```
+
+### Other Examples:
+
+command:
+
+<img width="675" height="19" alt="Screenshot 2025-08-04 194852" src="https://github.com/user-attachments/assets/c2d35542-5ac6-4c93-ae3e-9d4bc32e9fbd" />
+
+Ouptut:
+
+<img width="801" height="271" alt="Screenshot 2025-08-04 194902" src="https://github.com/user-attachments/assets/efcecbe3-d707-4107-87d7-91bcadf89a40" />
+
+
+#### Summary table
+| Command         | Full Form      | Purpose                                                      |
+|-----------------|----------------|--------------------------------------------------------------|
+| `ping <domain>` | Packet Internet Groper | Sends ICMP Echo Request packets to test network connectivity to a website or host. |
+

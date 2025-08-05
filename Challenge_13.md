@@ -4,17 +4,15 @@
 Learn to use the `tar` command to bundle multiple files and directories into a single archive, and optionally compress that archive. This is essential for creating backups, sharing large sets of files, and moving data between systems.
 
 ## Explanation:
-The file extension .tar.gz is actually a combination of two different technologies used in a specific sequence.
+The file extension `.tar.gz` is actually a combination of two different technologies used in a specific sequence.
 
-tar
-Full Form: Tape Archive
+"tar" Full Form: Tape Archive
 
 Usage: The tar command's original purpose was to create archives for backing up data to magnetic tape. Today, its main usage is to bundle multiple files and directories into a single file. It's an archiver, not a compressor.
 
-Key Function: It gathers a collection of files and directories into a single .tar file while preserving their metadata, such as file permissions, ownership, and timestamps. Think of it like putting all your documents into a single box.
+Key Function: It gathers a collection of files and directories into a single `.tar` file while preserving their metadata, such as file permissions, ownership, and timestamps. Think of it like putting all your documents into a single box.
 
-gz
-Full Form: GNU Zip
+"gz" Full Form: GNU Zip
 
 Usage: The gzip command's purpose is to compress a single file to make it smaller. It's a compressor, not an archiver.
 

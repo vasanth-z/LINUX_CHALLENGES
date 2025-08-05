@@ -50,6 +50,7 @@ This journey is structured to provide deep dives into critical areas:
 | 10        | [Basic System Information](https://github.com/vasanth-z/LINUX_CHALLENGES/blob/8328ff523c7db6884d5d750c5a48e3720ac2f288/Challenge_10.md)                   |  COMPLETED ✅       |
 | 11        | [Disk Usage and Free Space(du,df)](https://github.com/vasanth-z/LINUX_CHALLENGES/blob/d18b7d51a8244abf5ca7edae1211843a90f612f9/Challenge_11.md)           |  COMPLETED ✅       |
 | 12        | [Pinging a Website!](https://github.com/vasanth-z/LINUX_CHALLENGES/blob/491ed42a99b3456387a0f475f619c6a7fd67b0ed/Challenge_12.md)                         |  COMPLETED ✅       |
+| 13        | [Tar Archiving and Compression](https://github.com/vasanth-z/LINUX_CHALLENGES/blob/1af85b0e6302523b9b0f3535f02aed9a2ffbdd9b/Challenge_13.md)              |  COMPLETED ✅       |
 
 ---
 

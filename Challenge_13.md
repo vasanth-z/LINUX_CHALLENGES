@@ -34,7 +34,7 @@ The word "verbose" means "using or expressed in more words than are needed." In 
 
 ## 🛠️ Steps:
 
-### ✅ Step 1: Create a Test Directory with Files
+### ✅ Step 1: Create a Test Directory with Files:
 
 Create a directory named `~/archive_test` and add a couple of files.
 

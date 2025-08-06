@@ -7,7 +7,7 @@ Explore different command-line utilities (**cat**, **head**, **tail**) to displa
 
 ## 🪜 Steps:
 
-### ✅ Step 1: Create a Multi-Line Text File
+### ✅ Step 1: Create a Multi-Line Text File:
 
 Create a file named `~/learn.txt` with at least 5 distinct lines of text:
 
@@ -25,7 +25,7 @@ Note: Using `>` for the first line to create/overwrite and `>>` for lines to app
 <img width="1281" height="63" alt="Screenshot 2025-07-28 224027" src="https://github.com/user-attachments/assets/294d254b-e59d-4a91-8c5f-300432d679ae" />
 
 
-## 🔄 Alternative Method for Challenge 6: Using a Command-Line Text Editor
+## 🔄 Alternative Method for Challenge 6: Using a Command-Line Text Editor:
 
 Instead of using multiple `echo` commands, you can create and edit `~/learn.txt` directly using a **command-line text editor**.
 

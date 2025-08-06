@@ -71,3 +71,11 @@ ls -l ~/large_file.txt
 
 <img width="858" height="40" alt="Screenshot 2025-08-06 224301" src="https://github.com/user-attachments/assets/ea68e12c-8b44-4214-b5ce-541d920b80ad" />
 
+| Command                                                                 | Purpose                                                                                   |
+|-------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
+| head -c 1M /dev/urandom \| tr -dc A-Za-z0-9 > ~/large_file.txt         | Create a 1MB file filled with random alphanumeric characters for testing compression.     |
+| ls -l ~/large_file.txt                                                 | Check the size of the original file before compression.                                   |
+| gzip ~/large_file.txt                                                  | Compress the file using gzip; replaces the original with a `.gz` version.                 |
+| ls -l ~/large_file.txt.gz                                              | Verify that the file was compressed and check its new size.                               |
+| gunzip ~/large_file.txt.gz                                             | Decompress the `.gz` file to restore the original text file.                              |
+| ls -l ~/large_file.txt                                                 | Confirm that the original file is restored after decompression.                           |

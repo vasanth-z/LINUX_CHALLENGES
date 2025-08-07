@@ -52,6 +52,8 @@ This journey is structured to provide deep dives into critical areas:
 | 12        | [Pinging a Website!](https://github.com/vasanth-z/LINUX_CHALLENGES/blob/491ed42a99b3456387a0f475f619c6a7fd67b0ed/Challenge_12.md)                         |  COMPLETED ✅       |
 | 13        | [Tar Archiving and Compression](https://github.com/vasanth-z/LINUX_CHALLENGES/blob/1af85b0e6302523b9b0f3535f02aed9a2ffbdd9b/Challenge_13.md)              |  COMPLETED ✅       |
 | 14        | [Gzip Compression and Decompression](https://github.com/vasanth-z/LINUX_CHALLENGES/blob/e62522f459d3903eb5eddcc251bf8bb4f173dbfe/Challenge_14.md)         |  COMPLETED ✅       |
+| 15        | [Basic Crontab Entry(Task Scheduling)](https://github.com/vasanth-z/LINUX_CHALLENGES/blob/bdfaef8f3767e682b76ad4698ec2729541a99a35/Challenge_15.md)       |  COMPLETED ✅       |
+
 
 ---
 

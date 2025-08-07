@@ -10,6 +10,10 @@ Use the `-e` flag to edit your user’s crontab file:
 ```bash
 crontab -e
 ```
+<img width="604" height="18" alt="Screenshot 2025-08-07 193121" src="https://github.com/user-attachments/assets/2d54bac5-c412-43ae-a4ca-78f5e54c6c74" />
+
+
+
 ### 2. Add the Cron Job
 
 Add the following line to the bottom of the file:
@@ -17,6 +21,8 @@ Add the following line to the bottom of the file:
 ```
 * * * * * echo "Hello from cron at $(date)" >> ~/cron_output.log
 ```
+<img width="866" height="823" alt="Screenshot 2025-08-07 193151" src="https://github.com/user-attachments/assets/e991464a-f97b-4209-bcab-7652efbed11b" />
+
 Note: Between every `*` space must be given
 
 🔍 Explanation:
@@ -45,6 +51,9 @@ Check crontab entry:
 crontab -l
 ```
 
+<img width="867" height="471" alt="Screenshot 2025-08-07 193133" src="https://github.com/user-attachments/assets/e092826a-d5d7-40e5-bccb-186aa41a5994" />
+
+
 #### check the Log file content:
 ```
 cat ~/cron_output.log
@@ -56,6 +65,9 @@ Hello from cron at Thu Aug  7 22:01:01 IST 2025
 Hello from cron at Thu Aug  7 22:02:01 IST 2025
 Hello from cron at Thu Aug  7 22:03:01 IST 2025
 ```
+
+<img width="740" height="92" alt="Screenshot 2025-08-07 193217" src="https://github.com/user-attachments/assets/97102dd4-a56a-4d63-b802-b733e52104e8" />
+
 
 ### ⚠️ CRITICAL: Clean Up! ⚠️
 To stop the cron job:

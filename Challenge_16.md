@@ -77,3 +77,20 @@ find ~/project_x -type f -name "*.txt"
 ```
 
 <img width="770" height="38" alt="Screenshot 2025-08-08 224505" src="https://github.com/user-attachments/assets/ae74aa43-7783-49f4-a8b4-96fa25da99cf" />
+
+---
+
+### 📄 Challenge 16: Finding Files with Specific Criteria - Command Summary
+
+| Command | Purpose |
+|--------|---------|
+| `mkdir -p ~/project_x/data ~/project_x/config ~/project_x/logs` | Creates a nested directory structure for testing. |
+| `touch -t 202401151000 ~/project_x/data/old_data.log` | Creates a file with a manually set old timestamp. |
+| `dd if=/dev/zero of=~/project_x/data/large_file.bin bs=1M count=2` | Creates a 2MB file filled with zero bytes. |
+| `touch ~/project_x/config/config.txt` | Creates a text file in the config directory. |
+| `touch ~/project_x/config/empty.conf` | Creates an empty file (0 bytes) in the config directory. |
+| `echo "Example log entry" > ~/project_x/logs/service.log` | Adds a line of text to a log file. |
+| `find ~/project_x -type f -size +1M` | Finds files larger than 1MB. |
+| `find ~/project_x -type f -mtime -1` | Finds files modified within the last 24 hours. |
+| `find ~/project_x -type f -empty` | Finds files that are empty (0 bytes). |
+| `find ~/project_x -type f -name "*.txt"` | Finds files with a `.txt` extension. |

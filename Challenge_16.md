@@ -5,9 +5,9 @@ Master the `find` command to locate files based on various attributes like size,
 
 ---
 
-## ✅ Steps
+## ✅ Steps:
 
-### 1. Create the Test Environment
+### 1. Create the Test Environment:
 
 Create a sample directory structure with files of different sizes and ages.
 
@@ -45,7 +45,7 @@ find ~/project_x -type f -size +1M
 
 ---
 
-### 3. Find Files Modified in the Last 24 Hours
+### 3. Find Files Modified in the Last 24 Hours:
 
 Find all files in ~/project_x that have been modified within the last day.
 
@@ -58,7 +58,7 @@ find ~/project_x -type f -mtime -1
 
 ----
 
-### 4. Find All Empty Files
+### 4. Find All Empty Files:
 
 Find and list all files that have a size of zero bytes.
 
@@ -68,7 +68,7 @@ find ~/project_x -type f -empty
 
 <img width="853" height="72" alt="Screenshot 2025-08-08 224457" src="https://github.com/user-attachments/assets/0490a726-ffca-484b-9472-753a3e78f71d" />
 
-### 5. Find All .txt Files
+### 5. Find All `.txt` Files:
 
 Find all files ending with the .txt extension.
 

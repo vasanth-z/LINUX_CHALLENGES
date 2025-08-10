@@ -22,6 +22,22 @@ sudo mkdir /shared_folder
 sudo chmod 1777 /shared_folder
 sudo chown your_username:your_group /shared_folder
 ```
+<img width="657" height="22" alt="Screenshot 2025-08-10 190242" src="https://github.com/user-attachments/assets/0e123c87-2bef-4e20-b2fc-d5214a53838b" />
+
+![Uploading Screenshot 2025-08-10 190250.png…]()
+
+![Uploading Screenshot 2025-08-10 190301.png…]()
+
+#### For creating groups:
+
+<img width="457" height="21" alt="Screenshot 2025-08-10 190326" src="https://github.com/user-attachments/assets/48bc9af9-4404-4565-9b87-f01cd1a95b2c" />
+
+#### To view groups:
+
+<img width="476" height="16" alt="Screenshot 2025-08-10 190331" src="https://github.com/user-attachments/assets/d59b8225-a919-4bd9-b044-6e8db2b9fb3a" />
+
+<img width="685" height="24" alt="Screenshot 2025-08-10 190350" src="https://github.com/user-attachments/assets/1a4daba2-103d-4b17-ad65-5573f20f188f" />
+
 
 - 1 in 1777 → Sticky bit
 
@@ -36,6 +52,11 @@ Create a file as your user, then try deleting it as another user.
 touch /shared_folder/my_file.txt
 sudo -u nobody rm /shared_folder/my_file.txt
 ```
+<img width="742" height="17" alt="Screenshot 2025-08-10 190400" src="https://github.com/user-attachments/assets/d1f56eb2-f2ac-450b-980f-a84be6b0c537" />
+
+<img width="774" height="32" alt="Screenshot 2025-08-10 190406" src="https://github.com/user-attachments/assets/b69dea0e-88c3-46e1-8f27-b055dc6285d8" />
+
+
 Expected:
 
 ```bash
@@ -56,6 +77,7 @@ Expected example:
 -rwsr-xr-x 1 root root 54264 May 18 2023 /usr/bin/passwd
 (s in the owner's execute position indicates SUID)
 ```
+<img width="724" height="37" alt="Screenshot 2025-08-10 190423" src="https://github.com/user-attachments/assets/16356d23-4f59-4413-84e9-c698fe5bf3a8" />
 
 The `s` you're seeing in a file's permission string is a special permission bit. It's a powerful and important security feature in Linux that changes how a file is executed.
 
@@ -69,6 +91,10 @@ mkdir ~/sgid_test
 chmod g+s ~/sgid_test
 ls -ld ~/sgid_test
 ```
+<img width="693" height="55" alt="Screenshot 2025-08-10 190431" src="https://github.com/user-attachments/assets/5b992e1b-63e0-4157-a02d-5bf709be2c1f" />
+
+<img width="708" height="25" alt="Screenshot 2025-08-10 190442" src="https://github.com/user-attachments/assets/4422f9a2-236d-419c-8653-4105edfb3384" />
+
 Expected example:
 
 ```arduino

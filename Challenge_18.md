@@ -109,3 +109,19 @@ drwxr-sr-x 2 your_username your_group 4096 Aug 10 18:35 /home/your_username/sgid
 sudo rm -r /shared_folder
 rm -r ~/sgid_test
 ```
+# 📜 Challenge 18: Advanced Permissions (Sticky Bit & SUID/SGID) — Commands & Purpose
+
+| Command | Purpose |
+|---------|---------|
+| `sudo mkdir /shared_folder` | Create a new directory `/shared_folder` with root permissions. |
+| `sudo chmod 1777 /shared_folder` | Set **sticky bit** (1) and `777` permissions so all users can read, write, and execute, but only owners can delete their files. |
+| `sudo chown your_username:your_group /shared_folder` | Change ownership of the directory to your user and group. |
+| `touch /shared_folder/my_file.txt` | Create a new file in the shared folder. |
+| `sudo -u nobody rm /shared_folder/my_file.txt` | Simulate another user (`nobody`) trying to delete your file (should fail due to sticky bit). |
+| `ls -l /usr/bin/passwd` | Check if **SUID bit** is set on `passwd` (look for `s` in owner execute position). |
+| `mkdir ~/sgid_test` | Create a new directory named `sgid_test` in your home directory. |
+| `chmod g+s ~/sgid_test` | Set the **SGID bit** so new files inherit the directory's group ownership. |
+| `ls -ld ~/sgid_test` | Verify SGID permission (look for `s` in group execute position). |
+| `ls -ld /shared_folder` | Check sticky bit on `/shared_folder` (look for `t` at the end of permissions). |
+| `sudo rm -r /shared_folder` | Remove the shared folder and its contents. |
+| `rm -r ~/sgid_test` | Remove the SGID test directory. |

@@ -24,9 +24,9 @@ sudo chown your_username:your_group /shared_folder
 ```
 <img width="657" height="22" alt="Screenshot 2025-08-10 190242" src="https://github.com/user-attachments/assets/0e123c87-2bef-4e20-b2fc-d5214a53838b" />
 
-![Uploading Screenshot 2025-08-10 190250.png…]()
+<img width="710" height="39" alt="Screenshot 2025-08-10 190250" src="https://github.com/user-attachments/assets/f3716005-0191-4e30-af00-4a8fe0188fe7" />
 
-![Uploading Screenshot 2025-08-10 190301.png…]()
+<img width="739" height="32" alt="Screenshot 2025-08-10 190301" src="https://github.com/user-attachments/assets/5a6766cd-27f6-4d24-ab20-ae1d8de6949d" />
 
 #### For creating groups:
 

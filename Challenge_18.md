@@ -57,6 +57,10 @@ Expected example:
 (s in the owner's execute position indicates SUID)
 ```
 
+The `s` you're seeing in a file's permission string is a special permission bit. It's a powerful and important security feature in Linux that changes how a file is executed.
+
+----
+
 ### 4️⃣ Explore SGID (Set Group ID) Bit
 SGID on a directory makes new files inherit the group of the parent directory.
 

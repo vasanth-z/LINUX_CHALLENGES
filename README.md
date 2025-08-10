@@ -54,6 +54,8 @@ This journey is structured to provide deep dives into critical areas:
 | 14        | [Gzip Compression and Decompression](https://github.com/vasanth-z/LINUX_CHALLENGES/blob/e62522f459d3903eb5eddcc251bf8bb4f173dbfe/Challenge_14.md)         |  COMPLETED ✅       |
 | 15        | [Basic Crontab Entry(Task Scheduling)](https://github.com/vasanth-z/LINUX_CHALLENGES/blob/bdfaef8f3767e682b76ad4698ec2729541a99a35/Challenge_15.md)       |  COMPLETED ✅       |
 | 16        | [Finding Files with Specific Criteria](https://github.com/vasanth-z/LINUX_CHALLENGES/blob/543ce20b64e96aa3174ad9c63850641e28d5bf2e/Challenge_16.md)       |  COMPLETED ✅       |
+| 17        | [Symbolic and Hardlinks](https://github.com/vasanth-z/LINUX_CHALLENGES/blob/52b14d70a0a0705279eb9634b4af2b64df973799/Challenge_17.md)                     |  COMPLETED ✅       |
+| 18        | 
 
 ---
 

@@ -39,3 +39,16 @@ Command:
 ```bash
 ip route
 ```
+
+
+
+
+
+## Commands and Purpose
+
+| Command | Purpose |
+|---------|---------|
+| `ip addr` | Displays all network interfaces and their IP addresses. |
+| `ip link` | Shows detailed link-layer (interface) information. |
+| `ifconfig` | Displays and configures network interface parameters (older command, replaced by `ip`). |
+| `ip route` | Shows or manipulates the IP routing table. |

@@ -43,6 +43,10 @@ dig google.com
 ```
 Expected output includes an ANSWER SECTION with the IP address(es) (A records).
 
+<img width="813" height="376" alt="Screenshot 2025-08-15 102030" src="https://github.com/user-attachments/assets/30972eca-2f69-464c-84ed-233a7946ca79" />
+
+----
+
 ### 2. Check for an Open Port (nc or telnet):
 
 + Use the nc (netcat) or telnet command to attempt a connection to a specific port on the target host. Port 80 is for HTTP, and port 443 is for HTTPS. A successful connection indicates the port is open.
@@ -56,6 +60,10 @@ nc -vz google.com 80
 ```
 If the port is open, you'll see a "succeeded" message.
 
+<img width="758" height="37" alt="Screenshot 2025-08-15 102039" src="https://github.com/user-attachments/assets/9548810a-3f71-4bfb-a27c-fc6738c3539a" />
+
+----
+
 ### 3. Check for a Closed Port (Verification):
 
 + Use the same command to check a port that is unlikely to be open on a public web server, like a high, non-standard port (e.g., 8080).
@@ -66,3 +74,7 @@ Command:
 nc -vz google.com 8080
 ```
 A "Connection refused" or "timed out" message confirms the port is closed.
+
+<img width="883" height="57" alt="Screenshot 2025-08-15 102048" src="https://github.com/user-attachments/assets/fc72cd49-e8f9-48ec-81ea-f6ae321f6119" />
+
+

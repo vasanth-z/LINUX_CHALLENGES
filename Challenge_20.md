@@ -28,38 +28,41 @@ Learn to use fundamental networking tools (dig, nc) to resolve domain names to I
 
 **Usage**: This command is a basic form of port scanning. It's used to test if a specific port on a remote server is open and actively listening for connections. A successful connection attempt confirms that the service (e.g., a web server) is running on that port. If the connection is refused, it tells you the port is closed.
 
-Steps
-Resolve a Domain Name's IP Address (dig):
+----
+
+## Steps
+### 1. Resolve a Domain Name's IP Address (dig):
 
 Use the dig command to query a DNS server and find the IP address(es) associated with a domain name like google.com. dig is a powerful tool for DNS diagnostics.
 
 Command:
 
-Bash
+```Bash
 
 dig google.com
+```
 Expected output includes an ANSWER SECTION with the IP address(es) (A records).
 
-Check for an Open Port (nc or telnet):
+### 2. Check for an Open Port (nc or telnet):
 
-Use the nc (netcat) or telnet command to attempt a connection to a specific port on the target host. Port 80 is for HTTP, and port 443 is for HTTPS. A successful connection indicates the port is open.
++ Use the nc (netcat) or telnet command to attempt a connection to a specific port on the target host. Port 80 is for HTTP, and port 443 is for HTTPS. A successful connection indicates the port is open.
 
-Use the -vz flags with nc for verbose output and zero-I/O mode, which is good for a simple check.
+ + Use the -vz flags with nc for verbose output and zero-I/O mode, which is good for a simple check.
 
 Command:
 
-Bash
-
+```Bash
 nc -vz google.com 80
+```
 If the port is open, you'll see a "succeeded" message.
 
-Check for a Closed Port (Verification):
+### 3. Check for a Closed Port (Verification):
 
-Use the same command to check a port that is unlikely to be open on a public web server, like a high, non-standard port (e.g., 8080).
++ Use the same command to check a port that is unlikely to be open on a public web server, like a high, non-standard port (e.g., 8080).
 
 Command:
 
-Bash
-
+```Bash
 nc -vz google.com 8080
+```
 A "Connection refused" or "timed out" message confirms the port is closed.

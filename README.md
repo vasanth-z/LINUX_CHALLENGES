@@ -57,6 +57,7 @@ This journey is structured to provide deep dives into critical areas:
 | 17        | [Symbolic and Hardlinks](https://github.com/vasanth-z/LINUX_CHALLENGES/blob/52b14d70a0a0705279eb9634b4af2b64df973799/Challenge_17.md)                     |  COMPLETED ✅       |
 | 18        | [Advanced Permission Sticky Bit & SUID/SGID](https://github.com/vasanth-z/LINUX_CHALLENGES/blob/442d6976464bdd4ac573df093abbb773e57f8193/Challenge_18.md) |  COMPLETED ✅       |
 | 19        | [Network Interface Configurationa and Information](https://github.com/vasanth-z/LINUX_CHALLENGES/blob/a10ca97b1a20d950453c611e0771fbb1754139b8/Challenge_19.md)|   COMPLETED ✅ |
+| 20        | [DNS Resolving and Port Scanning](https://github.com/vasanth-z/LINUX_CHALLENGES/blob/f81adb240524f2a971ac84fb9d458297cd527462/Challenge_20.md)            |   COMPLETED ✅      |   
 ---
 
 

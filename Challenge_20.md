@@ -73,7 +73,7 @@ Command:
 ```Bash
 nc -vz google.com 8080
 ```
-A "Connection refused" or "timed out" message confirms the port is closed.
+A "Connection refused" or "timed out" message confirms the port is closed..
 
 <img width="883" height="57" alt="Screenshot 2025-08-15 102048" src="https://github.com/user-attachments/assets/fc72cd49-e8f9-48ec-81ea-f6ae321f6119" />
 

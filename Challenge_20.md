@@ -1,4 +1,5 @@
 # 🎯 Challenge 20: DNS Resolution & Port Scanning
+
 ## Objective:
 Learn to use fundamental networking tools (dig, nc) to resolve domain names to IP addresses and to check if specific network ports are open and listening on a remote host.
 

@@ -51,7 +51,7 @@ Expected output includes an ANSWER SECTION with the IP address(es) (A records).
 
 + Use the nc (netcat) or telnet command to attempt a connection to a specific port on the target host. Port 80 is for HTTP, and port 443 is for HTTPS. A successful connection indicates the port is open.
 
- + Use the -vz flags with nc for verbose output and zero-I/O mode, which is good for a simple check.
+ + Use the -vz flags with nc for verbose output and zero-I/O mode, which is good for a simple check..
 
 Command:
 

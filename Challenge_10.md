@@ -1,4 +1,4 @@
-## 🎯 Challenge 10: Basic System Information
+## 🎯 Challenge 10: Basic System Information:
 
 ### 🧠 Objective:
 Learn how to quickly retrieve fundamental information about the current user and the system, such as the username, date, hostname, and operating system details. These commands are essential for orienting yourself on any Linux machine.

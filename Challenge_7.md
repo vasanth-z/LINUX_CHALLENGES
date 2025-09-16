@@ -76,7 +76,7 @@ AFTER:
 
 ---
 
-## 📄 Summary: Commands and Their Purpose
+## 📄 Summary: Commands and Their Purpose:
 
 | Command                          | Purpose                                                                 |
 |----------------------------------|-------------------------------------------------------------------------|

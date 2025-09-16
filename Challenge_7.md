@@ -8,7 +8,7 @@ Learn how to effectively search for specific patterns (text strings) within file
 
 ---
 
-### 🔧 Steps
+### 🔧 Steps:
 
 ### 1. Ensure `learn.txt` is Ready:
 Ensure you have the `~/learn.txt` file from **Challenge 6**.
